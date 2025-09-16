@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "334784372045",
+    "project_id": "hackdeck-162f2",
+    "storage_bucket": "hackdeck-162f2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:334784372045:android:326b2e7dcb1f5b6debab04",
+        "android_client_info": {
+          "package_name": "com.example.e_learning_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "334784372045-9p6igp0irnd68f87gp4cj111allcsp8l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.e_learning_app",
+            "certificate_hash": "30a3435bc0deaa3cd68f156204b2eca48a9c79c7"
+          }
+        },
+        {
+          "client_id": "334784372045-qvp0sg1mprno9beupfmoftmajjotioto.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfWUw7vohuLZSkWEIrngpBnX9ALOkVwMw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "334784372045-qvp0sg1mprno9beupfmoftmajjotioto.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

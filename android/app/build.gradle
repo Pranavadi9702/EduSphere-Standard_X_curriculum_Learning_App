@@ -1,0 +1,56 @@
+plugins {
+    id "com.android.application"
+    id "kotlin-android"
+    // The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.
+    id "com.google.gms.google-services"
+    id "dev.flutter.flutter-gradle-plugin"
+    id 'org.jetbrains.kotlin.android' version '2.1.0' apply true
+}
+
+android {
+    namespace = "com.example.e_learning_app"
+    compileSdk = flutter.compileSdkVersion
+    ndkVersion = flutter.ndkVersion
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+
+    defaultConfig {
+    applicationId = "com.example.e_learning_app"
+    minSdkVersion 23  // Change from flutter.minSdkVersion to 23
+    targetSdkVersion flutter.targetSdkVersion
+    versionCode flutter.versionCode
+    versionName flutter.versionName
+    }
+
+
+    buildTypes {
+        release {
+            // TODO: Add your own signing config for the release build.
+            // Signing with the debug keys for now, so `flutter run --release` works.
+            signingConfig = signingConfigs.debug
+        }
+    }
+}
+
+dependencies { // Latest Firebase BOM
+    implementation 'org.jetbrains.kotlin:kotlin-stdlib:2.1.0'  // Updated Kotlin stdlib
+    implementation 'com.google.firebase:firebase-auth'
+    implementation 'com.google.firebase:firebase-core:20.1.0'
+    
+    implementation platform('com.google.firebase:firebase-bom:32.7.0') // Use the latest version
+    implementation 'com.google.firebase:firebase-analytics' 
+
+}
+
+flutter {
+    source = "../.."
+}
+
+apply plugin: 'com.google.gms.google-services'
