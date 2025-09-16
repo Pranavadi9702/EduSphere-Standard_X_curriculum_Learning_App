@@ -43,6 +43,9 @@ What sets EduSphere apart from other e-learning platforms:
 - Lessons organized into chapters with clear duration.  
 - Interactive flashcards & quizzes after lessons to reinforce learning.  
 
+#### Screenshots  
+<img src="screenshots/economics_lessons.jpg" width="300"/> <img src="screenshots/quiz_flashcards.jpg" width="300"/>  
+
 ---
 
 ### 2. 📂 Resource Hub  
@@ -52,12 +55,18 @@ What sets EduSphere apart from other e-learning platforms:
 - Formula Sheets  
 - E-Books & References  
 
+#### Screenshot  
+<img src="screenshots/resources.jpg" width="300"/>  
+
 ---
 
 ### 3. 🌍 Interactive Visualizations  
 - Flask-powered Geography Map Visualization with clickable regions.  
 - Pythagoras Theorem Visualizer for interactive math learning.  
 - Periodic Table Explorer for Chemistry learners.  
+
+#### Screenshot  
+<img src="screenshots/physical_geography.jpg" width="300"/>  
 
 ---
 
@@ -66,12 +75,19 @@ What sets EduSphere apart from other e-learning platforms:
 - Leaderboards to encourage healthy competition.  
 - Progress tracking and gamified badges.  
 
+#### Screenshot  
+<img src="screenshots/sidebar.jpg" width="300"/>  
+
 ---
 
 ### 5. ⚙️ User Personalization  
 - User Preferences (Board, Age, Gender, City).  
 - Personalized dashboard with daily facts, progress, and announcements.  
 - Profile management including Favorites, Settings, and Help & Support.  
+
+#### Screenshots  
+<img src="screenshots/homepage.jpg" width="300"/>  
+<img src="screenshots/profile.jpg" width="300"/> <img src="screenshots/preferences.jpg" width="300"/>  
 
 ---
 
@@ -83,28 +99,6 @@ What sets EduSphere apart from other e-learning platforms:
 - **Authentication:** Firebase Auth (Google Sign-In + Manual Login)  
 - **Cloud Storage:** Firebase Storage  
 - **Other Integrations:** Razorpay (for premium subscriptions, future scope)  
-
----
-
-## 📸 Screenshots  
-
-### 📚 Lessons & Quizzes  
-<img src="screenshots/economics_lessons.jpg" width="300"/> <img src="screenshots/quiz_flashcards.jpg" width="300"/>  
-
-### 📂 Resources Hub  
-<img src="screenshots/resources.jpg" width="300"/>  
-
-### 🌍 Geography & Visualization  
-<img src="screenshots/physical_geography.jpg" width="300"/>  
-
-### 🏠 Dashboard & Popular Lessons  
-<img src="screenshots/homepage.jpg" width="300"/>  
-
-### 👤 Profile & Preferences  
-<img src="screenshots/profile.jpg" width="300"/> <img src="screenshots/preferences.jpg" width="300"/>  
-
-### 📊 Sidebar Features  
-<img src="screenshots/sidebar.jpg" width="300"/>  
 
 ---
 
